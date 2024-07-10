@@ -1,0 +1,10 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "get": "npx hardhat run scripts/deploy.ts --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.6"
+  }
+}
